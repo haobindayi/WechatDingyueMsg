@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+	<button bindtap="subMsg" type='primary'>获取订阅消息授权</button>
+  
+	<button bindtap="sendMsg" type='primary'> 获取用户的openid并推送消息</button>
+  
+	<button bindtap="saveData" type='primary'> 存储数据</button>
+
+	<button bindtap="date" type='primary'> 日期</button>
+</view>
